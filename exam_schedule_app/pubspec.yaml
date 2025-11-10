@@ -1,0 +1,19 @@
+name: exam_schedule_app
+description: A simple Flutter application to display an exam schedule.
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The intl package is used for date formatting.
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
